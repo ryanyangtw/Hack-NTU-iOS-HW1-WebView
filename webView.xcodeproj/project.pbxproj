@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94345E6B1ADD0097001D3711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94345E6A1ADD0097001D3711 /* AppDelegate.swift */; };
-		94345E6D1ADD0097001D3711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94345E6C1ADD0097001D3711 /* ViewController.swift */; };
+		94345E6D1ADD0097001D3711 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94345E6C1ADD0097001D3711 /* WebViewController.swift */; };
 		94345E701ADD0097001D3711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94345E6E1ADD0097001D3711 /* Main.storyboard */; };
 		94345E721ADD0097001D3711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94345E711ADD0097001D3711 /* Images.xcassets */; };
 		94345E751ADD0097001D3711 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94345E731ADD0097001D3711 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		94345E651ADD0097001D3711 /* webView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94345E691ADD0097001D3711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94345E6A1ADD0097001D3711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94345E6C1ADD0097001D3711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94345E6C1ADD0097001D3711 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		94345E6F1ADD0097001D3711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94345E711ADD0097001D3711 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94345E741ADD0097001D3711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,10 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				94345E6A1ADD0097001D3711 /* AppDelegate.swift */,
-				94345E6C1ADD0097001D3711 /* ViewController.swift */,
+				94345E6C1ADD0097001D3711 /* WebViewController.swift */,
 				94345E6E1ADD0097001D3711 /* Main.storyboard */,
-				94345E711ADD0097001D3711 /* Images.xcassets */,
-				94345E731ADD0097001D3711 /* LaunchScreen.xib */,
 				94345E681ADD0097001D3711 /* Supporting Files */,
 			);
 			path = webView;
@@ -90,6 +88,8 @@
 		94345E681ADD0097001D3711 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94345E711ADD0097001D3711 /* Images.xcassets */,
+				94345E731ADD0097001D3711 /* LaunchScreen.xib */,
 				94345E691ADD0097001D3711 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94345E6D1ADD0097001D3711 /* ViewController.swift in Sources */,
+				94345E6D1ADD0097001D3711 /* WebViewController.swift in Sources */,
 				94345E6B1ADD0097001D3711 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +407,7 @@
 				94345E861ADD0097001D3711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94345E871ADD0097001D3711 /* Build configuration list for PBXNativeTarget "webViewTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				94345E891ADD0097001D3711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
